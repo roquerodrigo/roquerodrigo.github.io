@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@mdi/font": "^3.4.93",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.14",
+    "sass": "^1.17.0",
+    "sass-loader": "^7.1.0",
+    "tailwindcss": "^0.7.4",
+    "vue-template-compiler": "^2.6.6",
+    "webpack": "^4.29.4"
+  },
+  "scripts": {
+    "dev": "npm run watch",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  }
+}
