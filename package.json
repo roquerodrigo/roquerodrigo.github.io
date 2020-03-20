@@ -3,6 +3,7 @@
     "@mdi/font": "^3.4.93",
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.14",
+    "laravel-mix-purgecss": "^5.0.0-rc.1",
     "sass": "^1.17.0",
     "sass-loader": "^7.1.0",
     "tailwindcss": "^0.7.4",
