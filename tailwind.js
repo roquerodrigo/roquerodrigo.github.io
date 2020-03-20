@@ -1,4 +1,4 @@
-let defaultConfig = require('tailwindcss/defaultConfig')()
+let defaultConfig = require('tailwindcss/defaultConfig')();
 
 let colors = {
   'transparent': 'transparent',
@@ -84,7 +84,7 @@ let colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
-}
+};
 
 module.exports = {
 
@@ -95,7 +95,7 @@ module.exports = {
     'md': '768px',
     'lg': '992px',
     'xl': '1200px',
-    'print': {'raw': 'print'}
+    'print': {'raw': 'print'},
   },
 
   fonts: {
@@ -191,7 +191,7 @@ module.exports = {
     '8': '8px',
   },
 
-  borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
+  borderColors: global.Object.assign({default: colors['grey-light']}, colors),
 
   borderRadius: {
     'none': '0',
@@ -439,4 +439,4 @@ module.exports = {
     separator: ':',
   },
 
-}
+};
