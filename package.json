@@ -1,0 +1,19 @@
+{
+  "name": "roquerodrigo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tailwindcss -i ./tailwind.css -o styles.css --watch --minify"
+  },
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.26.0",
+    "@html-eslint/parser": "^0.26.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-perfectionist": "^3.5.0",
+    "tailwindcss": "^3.4.10"
+  },
+  "private": true
+}
