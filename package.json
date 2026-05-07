@@ -8,7 +8,7 @@
     "dev": "tailwindcss -i ./tailwind.css -o styles.css --watch --minify"
   },
   "devDependencies": {
-    "@html-eslint/eslint-plugin": "^0.26.0",
+    "@html-eslint/eslint-plugin": "^0.60.0",
     "@html-eslint/parser": "^0.26.0",
     "eslint": "^9.10.0",
     "eslint-config-prettier": "^9.1.0",
