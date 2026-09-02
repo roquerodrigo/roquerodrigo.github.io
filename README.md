@@ -1,5 +1,7 @@
 # rodrigoroque.dev
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white&style=for-the-badge)](https://github.com/sponsors/roquerodrigo)
+
 Portfólio e currículo de **Rodrigo Roque** — Engenheiro de Software Sênior / Especialista.
 
 Publicado via **GitHub Pages** em [rodrigoroque.dev](https://rodrigoroque.dev).
@@ -52,3 +54,7 @@ Os PDFs ficam disponíveis em:
 
 - `https://rodrigoroque.dev/rodrigo-roque-cv-pt.pdf`
 - `https://rodrigoroque.dev/rodrigo-roque-cv-en.pdf`
+
+## Apoie o projeto
+
+Este projeto é desenvolvido e mantido em tempo pessoal. Se for útil para você, considere [patrocinar o trabalho](https://github.com/sponsors/roquerodrigo) — é o que mantém o desenvolvimento, os testes e as publicações acontecendo.
