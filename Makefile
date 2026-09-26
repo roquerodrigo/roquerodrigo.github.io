@@ -18,6 +18,9 @@ site: pdf
 	rm -rf $(SITE)
 	mkdir -p $(SITE)
 	cp -r site/. $(SITE)/
+	sed -e "s|href=\"styles.css\"|href=\"styles.css?v=$$(shasum -a 256 site/styles.css | cut -c1-10)\"|" \
+	    -e "s|src=\"app.js\"|src=\"app.js?v=$$(shasum -a 256 site/app.js | cut -c1-10)\"|" \
+	    site/index.html > $(SITE)/index.html
 	cp CNAME $(SITE)/ 2>/dev/null || true
 	cp $(PT_PDF) $(SITE)/rodrigo-roque-cv-pt.pdf
 	cp $(EN_PDF) $(SITE)/rodrigo-roque-cv-en.pdf
