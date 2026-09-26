@@ -20,7 +20,9 @@ Publicado via **GitHub Pages** em [rodrigoroque.dev](https://rodrigoroque.dev).
 │   ├── app.js                # tema, count-up, reveal on scroll, nav ativa
 │   ├── favicon.svg           # monograma "RR"
 │   └── assets/fonts/         # fontes self-hosted (subset · woff2)
-├── .github/workflows/        # CI: compila o LaTeX e faz deploy no Pages
+├── data/projects.json        # projetos open source exibidos no site
+├── scripts/project_stats/    # atualiza estrelas e downloads dos projetos
+├── .github/workflows/        # CI: deploy no Pages e atualização semanal dos projetos
 ├── Makefile                  # Build local
 └── CNAME                     # Domínio (rodrigoroque.dev)
 ```
@@ -35,6 +37,7 @@ brew install tectonic      # macOS
 make            # gera cv/cv-pt.pdf e cv/cv-en.pdf
 make site       # gera os PDFs e monta o site em _site/
 make serve      # serve _site/ em http://localhost:8000
+make projects   # atualiza estrelas e downloads na seção open source
 make clean      # remove artefatos de build
 ```
 
@@ -54,6 +57,14 @@ Os PDFs ficam disponíveis em:
 
 - `https://rodrigoroque.dev/rodrigo-roque-cv-pt.pdf`
 - `https://rodrigoroque.dev/rodrigo-roque-cv-en.pdf`
+
+## Projetos open source
+
+A seção **Open Source** é gerada a partir de `data/projects.json`. O workflow
+**Update project stats** roda toda segunda-feira, atualiza o número de estrelas
+de cada repositório e o total de downloads de cada pacote (PyPI, npm ou assets
+das releases no GitHub), reordena os cards por estrelas, commita direto na
+`main` e publica o site.
 
 ## Apoie o projeto
 

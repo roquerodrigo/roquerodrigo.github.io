@@ -1,0 +1,41 @@
+name: Update project stats
+
+on:
+  schedule:
+    - cron: "23 7 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: update-project-stats
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Fetch stars and downloads
+        run: python3 -m scripts.project_stats
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Commit changes and deploy
+        run: |
+          if git diff --quiet; then
+            echo "Project stats are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --all --message "chore: update project stars and downloads"
+          git push
+          gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
