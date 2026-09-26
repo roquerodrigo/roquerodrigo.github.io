@@ -1,0 +1,103 @@
+[
+  {
+    "repository": "roquerodrigo/ha-ttlock-ble",
+    "description": "Integração para fechaduras TTLock por Bluetooth: controle local, eventos em tempo real e bateria.",
+    "tag": "Home Assistant",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "github-releases",
+      "name": "roquerodrigo/ha-ttlock-ble"
+    },
+    "stars": 28,
+    "downloads": 1296
+  },
+  {
+    "repository": "roquerodrigo/ha-xiaomi-vacuum",
+    "description": "Integração para o aspirador robô Xiaomi X20 Max (protocolo MIoT).",
+    "tag": "Home Assistant",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "github-releases",
+      "name": "roquerodrigo/ha-xiaomi-vacuum"
+    },
+    "stars": 6,
+    "downloads": 759
+  },
+  {
+    "repository": "roquerodrigo/ha-neakasa-litterbox",
+    "description": "Integração para a caixa de areia autolimpante Neakasa M1, com push MQTT em tempo real.",
+    "tag": "Home Assistant",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "github-releases",
+      "name": "roquerodrigo/ha-neakasa-litterbox"
+    },
+    "stars": 6,
+    "downloads": 354
+  },
+  {
+    "repository": "roquerodrigo/tplink-deco-api",
+    "description": "SDK Python tipado para roteadores mesh TP-Link Deco pela API HTTPS interna.",
+    "tag": "SDK",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "pypi",
+      "name": "tplink-deco-api"
+    },
+    "stars": 5,
+    "downloads": 7953
+  },
+  {
+    "repository": "roquerodrigo/neakasa-litterbox-sdk",
+    "description": "SDK Python assíncrono (não-oficial) para a caixa de areia Neakasa M1.",
+    "tag": "SDK",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "pypi",
+      "name": "neakasa-litterbox-sdk"
+    },
+    "stars": 4,
+    "downloads": 9893
+  },
+  {
+    "repository": "roquerodrigo/fitdays-api",
+    "description": "SDK TypeScript não-oficial da API FitDays: login, sincronização e tipagens completas.",
+    "tag": "SDK",
+    "language": "TypeScript",
+    "language_color": "#3178c6",
+    "package": {
+      "registry": "npm",
+      "name": "fitdays-api"
+    },
+    "stars": 3,
+    "downloads": 690
+  },
+  {
+    "repository": "roquerodrigo/ha-metro-sp",
+    "description": "Status em tempo real das linhas do Metrô-SP e da CPTM.",
+    "tag": "Home Assistant",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "github-releases",
+      "name": "roquerodrigo/ha-metro-sp"
+    },
+    "stars": 3,
+    "downloads": 7
+  },
+  {
+    "repository": "roquerodrigo/ha-integration-blueprint",
+    "description": "Template de integração HACS: coordinator, config flow, diagnostics e 95% de cobertura.",
+    "tag": "Template",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": null,
+    "stars": 2,
+    "downloads": null
+  }
+]

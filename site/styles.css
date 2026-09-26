@@ -743,7 +743,8 @@ strong {
   color: var(--ink);
   word-break: break-word;
 }
-.project__stars {
+.project__stars,
+.project__downloads {
   display: inline-flex;
   align-items: center;
   gap: 0.28rem;
@@ -751,7 +752,8 @@ strong {
   font-size: 0.78rem;
   color: var(--faint);
 }
-.project__stars svg {
+.project__stars svg,
+.project__downloads svg {
   width: 13px;
   height: 13px;
   fill: currentColor;

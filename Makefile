@@ -5,7 +5,7 @@ SITE     := _site
 PT_PDF := $(CVDIR)/cv-pt.pdf
 EN_PDF := $(CVDIR)/cv-en.pdf
 
-.PHONY: all pdf site serve clean
+.PHONY: all pdf site serve projects clean
 
 all: pdf
 
@@ -26,6 +26,9 @@ site: pdf
 serve: site
 	@echo "Serving $(SITE)/ at http://localhost:8000 (Ctrl+C to stop)"
 	cd $(SITE) && python3 -m http.server 8000
+
+projects:
+	python3 -m scripts.project_stats
 
 clean:
 	rm -rf $(SITE)
