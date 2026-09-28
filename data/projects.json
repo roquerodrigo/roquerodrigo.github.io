@@ -9,8 +9,8 @@
       "registry": "github-releases",
       "name": "roquerodrigo/ha-ttlock-ble"
     },
-    "stars": 28,
-    "downloads": 1296
+    "stars": 29,
+    "downloads": 1326
   },
   {
     "repository": "roquerodrigo/ha-xiaomi-vacuum",
@@ -23,7 +23,7 @@
       "name": "roquerodrigo/ha-xiaomi-vacuum"
     },
     "stars": 6,
-    "downloads": 759
+    "downloads": 807
   },
   {
     "repository": "roquerodrigo/ha-neakasa-litterbox",
@@ -36,7 +36,7 @@
       "name": "roquerodrigo/ha-neakasa-litterbox"
     },
     "stars": 6,
-    "downloads": 355
+    "downloads": 378
   },
   {
     "repository": "roquerodrigo/tplink-deco-api",
@@ -49,7 +49,7 @@
       "name": "tplink-deco-api"
     },
     "stars": 5,
-    "downloads": 7953
+    "downloads": 8050
   },
   {
     "repository": "roquerodrigo/neakasa-litterbox-sdk",
@@ -62,7 +62,7 @@
       "name": "neakasa-litterbox-sdk"
     },
     "stars": 4,
-    "downloads": 9893
+    "downloads": 9964
   },
   {
     "repository": "roquerodrigo/fitdays-api",
@@ -74,8 +74,8 @@
       "registry": "npm",
       "name": "fitdays-api"
     },
-    "stars": 3,
-    "downloads": 690
+    "stars": 4,
+    "downloads": 724
   },
   {
     "repository": "roquerodrigo/ha-metro-sp",
