@@ -10,7 +10,7 @@
       "name": "roquerodrigo/ha-ttlock-ble"
     },
     "stars": 32,
-    "downloads": 1478
+    "downloads": 1551
   },
   {
     "repository": "roquerodrigo/ha-xiaomi-vacuum",
@@ -23,7 +23,20 @@
       "name": "roquerodrigo/ha-xiaomi-vacuum"
     },
     "stars": 8,
-    "downloads": 1562
+    "downloads": 1776
+  },
+  {
+    "repository": "roquerodrigo/tplink-deco-api",
+    "description": "SDK Python tipado para roteadores mesh TP-Link Deco pela API HTTPS interna.",
+    "tag": "SDK",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "pypi",
+      "name": "tplink-deco-api"
+    },
+    "stars": 7,
+    "downloads": 9559
   },
   {
     "repository": "roquerodrigo/ha-neakasa-litterbox",
@@ -36,20 +49,20 @@
       "name": "roquerodrigo/ha-neakasa-litterbox"
     },
     "stars": 6,
-    "downloads": 448
+    "downloads": 499
   },
   {
-    "repository": "roquerodrigo/tplink-deco-api",
-    "description": "SDK Python tipado para roteadores mesh TP-Link Deco pela API HTTPS interna.",
+    "repository": "roquerodrigo/fitdays-api",
+    "description": "SDK TypeScript não-oficial da API FitDays: login, sincronização e tipagens completas.",
     "tag": "SDK",
-    "language": "Python",
-    "language_color": "#3572a5",
+    "language": "TypeScript",
+    "language_color": "#3178c6",
     "package": {
-      "registry": "pypi",
-      "name": "tplink-deco-api"
+      "registry": "npm",
+      "name": "fitdays-api"
     },
     "stars": 5,
-    "downloads": 8749
+    "downloads": 982
   },
   {
     "repository": "roquerodrigo/neakasa-litterbox-sdk",
@@ -62,20 +75,7 @@
       "name": "neakasa-litterbox-sdk"
     },
     "stars": 4,
-    "downloads": 10435
-  },
-  {
-    "repository": "roquerodrigo/fitdays-api",
-    "description": "SDK TypeScript não-oficial da API FitDays: login, sincronização e tipagens completas.",
-    "tag": "SDK",
-    "language": "TypeScript",
-    "language_color": "#3178c6",
-    "package": {
-      "registry": "npm",
-      "name": "fitdays-api"
-    },
-    "stars": 4,
-    "downloads": 893
+    "downloads": 10852
   },
   {
     "repository": "roquerodrigo/ha-metro-sp",
@@ -88,7 +88,7 @@
       "name": "roquerodrigo/ha-metro-sp"
     },
     "stars": 3,
-    "downloads": 9
+    "downloads": 10
   },
   {
     "repository": "roquerodrigo/ha-integration-blueprint",
