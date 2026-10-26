@@ -9,8 +9,8 @@
       "registry": "github-releases",
       "name": "roquerodrigo/ha-ttlock-ble"
     },
-    "stars": 32,
-    "downloads": 1551
+    "stars": 36,
+    "downloads": 1653
   },
   {
     "repository": "roquerodrigo/ha-xiaomi-vacuum",
@@ -22,8 +22,21 @@
       "registry": "github-releases",
       "name": "roquerodrigo/ha-xiaomi-vacuum"
     },
+    "stars": 10,
+    "downloads": 2405
+  },
+  {
+    "repository": "roquerodrigo/ha-neakasa-litterbox",
+    "description": "Integração para a caixa de areia autolimpante Neakasa M1, com push MQTT em tempo real.",
+    "tag": "Home Assistant",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "github-releases",
+      "name": "roquerodrigo/ha-neakasa-litterbox"
+    },
     "stars": 8,
-    "downloads": 1776
+    "downloads": 570
   },
   {
     "repository": "roquerodrigo/tplink-deco-api",
@@ -36,20 +49,7 @@
       "name": "tplink-deco-api"
     },
     "stars": 7,
-    "downloads": 9559
-  },
-  {
-    "repository": "roquerodrigo/ha-neakasa-litterbox",
-    "description": "Integração para a caixa de areia autolimpante Neakasa M1, com push MQTT em tempo real.",
-    "tag": "Home Assistant",
-    "language": "Python",
-    "language_color": "#3572a5",
-    "package": {
-      "registry": "github-releases",
-      "name": "roquerodrigo/ha-neakasa-litterbox"
-    },
-    "stars": 6,
-    "downloads": 499
+    "downloads": 10160
   },
   {
     "repository": "roquerodrigo/fitdays-api",
@@ -75,7 +75,7 @@
       "name": "neakasa-litterbox-sdk"
     },
     "stars": 4,
-    "downloads": 10852
+    "downloads": 11349
   },
   {
     "repository": "roquerodrigo/ha-metro-sp",
@@ -88,7 +88,7 @@
       "name": "roquerodrigo/ha-metro-sp"
     },
     "stars": 3,
-    "downloads": 10
+    "downloads": 17
   },
   {
     "repository": "roquerodrigo/ha-integration-blueprint",
