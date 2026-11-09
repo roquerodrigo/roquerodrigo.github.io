@@ -9,8 +9,8 @@
       "registry": "github-releases",
       "name": "roquerodrigo/ha-ttlock-ble"
     },
-    "stars": 39,
-    "downloads": 2484
+    "stars": 40,
+    "downloads": 3005
   },
   {
     "repository": "roquerodrigo/ha-xiaomi-vacuum",
@@ -22,8 +22,21 @@
       "registry": "github-releases",
       "name": "roquerodrigo/ha-xiaomi-vacuum"
     },
-    "stars": 10,
-    "downloads": 2611
+    "stars": 13,
+    "downloads": 3977
+  },
+  {
+    "repository": "roquerodrigo/tplink-deco-api",
+    "description": "SDK Python tipado para roteadores mesh TP-Link Deco pela API HTTPS interna.",
+    "tag": "SDK",
+    "language": "Python",
+    "language_color": "#3572a5",
+    "package": {
+      "registry": "pypi",
+      "name": "tplink-deco-api"
+    },
+    "stars": 9,
+    "downloads": 11814
   },
   {
     "repository": "roquerodrigo/ha-neakasa-litterbox",
@@ -36,20 +49,7 @@
       "name": "roquerodrigo/ha-neakasa-litterbox"
     },
     "stars": 8,
-    "downloads": 634
-  },
-  {
-    "repository": "roquerodrigo/tplink-deco-api",
-    "description": "SDK Python tipado para roteadores mesh TP-Link Deco pela API HTTPS interna.",
-    "tag": "SDK",
-    "language": "Python",
-    "language_color": "#3572a5",
-    "package": {
-      "registry": "pypi",
-      "name": "tplink-deco-api"
-    },
-    "stars": 7,
-    "downloads": 10160
+    "downloads": 1249
   },
   {
     "repository": "roquerodrigo/fitdays-api",
@@ -62,7 +62,7 @@
       "name": "fitdays-api"
     },
     "stars": 5,
-    "downloads": 1644
+    "downloads": 1779
   },
   {
     "repository": "roquerodrigo/neakasa-litterbox-sdk",
@@ -75,7 +75,7 @@
       "name": "neakasa-litterbox-sdk"
     },
     "stars": 4,
-    "downloads": 11349
+    "downloads": 12877
   },
   {
     "repository": "roquerodrigo/ha-metro-sp",
@@ -88,7 +88,7 @@
       "name": "roquerodrigo/ha-metro-sp"
     },
     "stars": 3,
-    "downloads": 17
+    "downloads": 23
   },
   {
     "repository": "roquerodrigo/ha-integration-blueprint",
